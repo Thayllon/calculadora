@@ -1,0 +1,40 @@
+/*tudo*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*botões*/
+.button{
+    width: 50px;
+    height: 50px;
+    font-size: 25;
+    margin: 2;
+    cursor: pointer;
+    background: linear-gradient(to left, rgb(255, 255, 255), rgb(199, 199, 199));
+    border: none;
+    color: rgba(0, 0, 0);
+}
+
+/*input*/
+.textview{
+    width: 220;
+    margin: 5;
+    font-size: 25;
+    padding: 5;
+    border: none;
+}
+
+/*posição da calc*/
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+/*estilo fundo*/
+.bg{
+    background: linear-gradient(to right, rgb(114, 114, 114), rgb(22, 19, 19)) ;
+    height: 100%;
+}
